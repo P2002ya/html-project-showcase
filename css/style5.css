@@ -1,0 +1,12 @@
+.image-holder{
+    height: 200px;
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-image: linear-gradient(
+        to right top,
+        #ff086f,
+        #ffe608c7,
+        
+    );
+}

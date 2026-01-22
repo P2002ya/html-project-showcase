@@ -5,56 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Multimedia Blog</title>
     <link rel="icon" href="./Logo.png" />
+    <link rel="stylesheet" href="./css/style1.css">
   </head>
   <body>
-    <h1>MY MULTIMEDIA BLOG sponsored by TAP ACADEMY &trade;</h1>
+    <h1 class="main-head" >MY MULTIMEDIA BLOG sponsored by TAP ACADEMY &trade;</h1>
 
-    <h2>My favourite songs of all time</h2>
+    <h2 class="brdclr">My favourite songs of all time</h2>
 
     <h3>1. Song 1</h3>
-    <audio src="./SONG1.mp3" controls></audio><br /><br />
+    <audio src="./assets/SONG1.mp3" controls></audio><br /><br />
 
     <h3>2. Song 2</h3>
-    <audio src="./SONG2.mp3" controls></audio><br /><br />
+    <audio src="./assets/SONG2.mp3" controls></audio><br /><br />
 
     <h3>3. Song 3</h3>
-    <audio src="./SONG3.mp3" controls></audio><br /><br />
-
-    <h2>Top 5 Most Watched Indian Film <del>Trailers</del> on youtube</h2>
+    <audio src="./assets/SONG3.mp3" controls></audio><br /><br />
+<hr>
+    <h1 class="sub-head">Top 5 Most Watched Indian Film <del>Trailers</del> on youtube</h1>
 
     <!-- MOVIE 1 -->
-    <h3>
+    <h3  class="brdclr">
       1.
       <ins>
         <abbr title="Salaar: Part 1 – Ceasefire">Salaar</abbr>: Part 1 –
         Ceasefire
       </ins>
-      -- <mark>113.2 million</mark> & Box Office Collection: ₹700+ Crore 😀
+      -- <mark id="highest">113.2 million</mark> | Box Office Collection: ₹700+ Crore 😀
     </h3>
 
-    <img
+    <div class="mvposter">
+      <img class="poster"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU-FiTz6GfOphGSBbZcWPQRVhe8Tir2SBK4g&s.jpg"
       height="400"
       width="250"
       alt="Salaar Poster"
     />
 
-    <video
-      poster="./tumbnail_1.jfif"
+    <video class="trailer"
+      poster="./assets/tumbnail_1.jfif"
       width="700"
       height="400"
-      autoplay
       muted
       loop
       controls
     >
-      <source src="./Salaar.mp4" type="video/mp4" />
+      <source src="./assets/Salaar.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
 
+    </div>
+
     <div>
-      <p align="justify">
-        <strong>Salaar: Part 1 – Ceasefire</strong> is a <em>2023</em>Indian
+      <p align="justify" class="brdclr1">
+        <strong id="stg">Salaar: Part 1 – Ceasefire</strong> is a <em>2023</em> Indian
         Telugu-language epic neo-noir action thriller film directed by Prashanth
         Neel and produced by Vijay Kiragandur under the banner of Hombale Films.
         The film stars Prabhas in the titular role, along with an ensemble cast
@@ -89,34 +92,35 @@
     <hr />
 
     <!-- MOVIE 2 -->
-    <h3>
+    <h3 class="brdclr">
       2. <ins><abbr title="Kolar Gold Fields">KGF</abbr>: Chapter 2</ins> —
-      <mark>Highly Watched Trailer</mark> | Box Office Collection: ₹1200+ Crore
+      <mark id="highest">106.5 million</mark> | Box Office Collection: ₹1200+ Crore
     </h3>
 
-    <img
+    <div class="mvposter">
+      <img class="poster"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyrlShGDOGqfmNPy1gGA38kgRWQDjTAKTE4w&s"
       height="400"
       width="250"
       alt="KGF Chapter 2 Poster"
     />
 
-    <video
-      poster="./tumbnail_2.jfif"
+    <video class="trailer"
+      poster="./assets/tumbnail_2.jfif"
       width="700"
       height="400"
-      autoplay
       muted
       loop
       controls
     >
-      <source src="./KGF_2.mp4" type="video/mp4" />
+      <source src="./assets/KGF_2.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
+    </div>
 
     <div>
-      <p align="justify">
-        <strong>KGF: Chapter 2</strong> is a 2022 Indian Kannada-language period
+      <p align="justify" class="brdclr1">
+        <strong id="stg">KGF: Chapter 2</strong> is a 2022 Indian Kannada-language period
         action drama film written and directed by Prashanth Neel and produced by
         Vijay Kiragandur under the banner of Hombale Films. The film stars Yash
         in the lead role as Rocky, along with an ensemble cast including Sanjay
@@ -145,34 +149,36 @@
     <hr />
 
     <!-- MOVIE 3 -->
-    <h3>
+    <h3 class="brdclr">
       3. <ins><abbr title="Pushpa 2: The Rule">Pushpa</abbr> 2: The Rule</ins> —
-      <mark>Trending Trailer</mark> | Expected Box Office: ₹1700+ Crore
+      <mark id="highest">104 million</mark> | Expected Box Office: ₹1700+ Crore
     </h3>
 
-    <img
+    <div class="mvposter">
+      <img class="poster"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT89c5I1L1JbNA5r3b5XJnl0NciALs_Bv1ybA&s.jpg"
       height="400"
       width="250"
       alt="Pushpa 2 Poster"
     />
 
-    <video
-      poster="./tumbnail_3.jfif"
+    <video class="trailer"
+      poster="./assets/tumbnail_3.jfif"
       width="700"
       height="400"
-      autoplay
       muted
       loop
       controls
     >
-      <source src="./Pushpa_2.mp4" type="video/mp4" />
+      <source src="./assets/Pushpa_2.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
 
+    </div>
+
     <div>
-      <p align="justify">
-        <strong>Pushpa 2: The Rule</strong> is an upcoming Indian
+      <p align="justify" class="brdclr1">
+        <strong id="stg">Pushpa 2: The Rule</strong> is an upcoming Indian
         Telugu-language action drama film written and directed by Sukumar and
         produced by Mythri Movie Makers in association with Sukumar Writings.
         The film stars Allu Arjun reprising his role as Pushpa Raj, alongside
@@ -196,35 +202,37 @@
     </div>
 
     <hr />
-    <-- MOVIE 4 -->
-    <h3>
+    <!-- MOVIE 4 -->
+    <h3 class="brdclr">
       4. <ins><abbr title="RRR (Rise Roar Revolt)">RRR</abbr></ins> —
-      <mark>Highly Watched Trailer</mark> | Box Office Collection: ₹1200+ Crore
+      <mark id="highest">75 million</mark> | Box Office Collection: ₹1200+ Crore
     </h3>
 
-    <img
+    <div class="mvposter">
+      <img class="poster"
       src="https://upload.wikimedia.org/wikipedia/en/d/d7/RRR_Poster.jpg"
       height="400"
       width="250"
       alt="RRR Movie Poster"
     />
 
-    <video
-      poster="./tumbnail_4.avif"
+    <video class="trailer"
+      poster="./assets/tumbnail_4.avif"
       width="700"
       height="400"
-      autoplay
       muted
       loop
       controls
     >
-      <source src="./RRR.mp4" type="video/mp4" />
+      <source src="./assets/RRR.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
 
+    </div>
+
     <div>
-      <p align="justify">
-        <strong>RRR</strong> is a 2022 Indian Telugu-language epic action drama
+      <p align="justify" class="brdclr1">
+        <strong id="stg">RRR</strong> is a 2022 Indian Telugu-language epic action drama
         film directed by S. S. Rajamouli and produced by D. V. V. Danayya under
         the banner of DVV Entertainments. The film stars N. T. Rama Rao Jr. and
         Ram Charan in the lead roles, with Alia Bhatt and Ajay Devgn appearing
@@ -249,34 +257,36 @@
 
     <hr />
     <!-- MOVIE 5 -->
-    <h3>
+    <h3 class="brdclr">
       5. <ins><abbr title="Jawan (2023)">Jawan</abbr></ins> —
-      <mark>Highly Watched Trailer</mark> | Box Office Collection: ₹1150+ Crore
+      <mark id="highest">112 million</mark> | Box Office Collection: ₹1150+ Crore
     </h3>
 
-    <img
+    <div class="mvposter">
+      <img class="poster"
       src="https://upload.wikimedia.org/wikipedia/en/3/39/Jawan_film_poster.jpg"
       height="400"
       width="250"
       alt="Jawan Movie Poster"
     />
 
-    <video
-      poster="./tumbnail_5.jfif"
+    <video class="trailer"
+      poster="./assets/tumbnail_5.jfif"
       width="700"
       height="400"
-      autoplay
       muted
       loop
       controls
     >
-      <source src="./Jawan.mp4" type="video/mp4" />
+      <source src="./assets/Jawan.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
 
+    </div>
+
     <div>
-      <p align="justify">
-        <strong>Jawan</strong> is a 2023 Indian Hindi-language action thriller
+      <p align="justify" class="brdclr1">
+        <strong id="stg">Jawan</strong> is a 2023 Indian Hindi-language action thriller
         film directed by Atlee and produced by Gauri Khan under the banner of
         Red Chillies Entertainment. The film stars Shah Rukh Khan in a dual
         role, alongside Nayanthara and Vijay Sethupathi in pivotal roles. The
